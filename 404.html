@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/jcfw/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>君诚法务后台管理系统</title>
+    <style>
+      body {
+        padding: 0px;
+        margin: 0px;
+        background-color: #161c24;
+      }
+
+      .loading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-color: rgba(7, 6, 6, 0.26);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 9999;
+      }
+
+      .loading-logo {
+        margin-right: 40px;
+      }
+
+      .loading-icon {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        animation: icon-rotate 1.26s linear infinite;
+      }
+
+      .loading-icon-item {
+        position: absolute;
+        border-radius: 50%;
+        animation: loading-animation 1s infinite ease-in-out;
+      }
+      .loading-icon-item:nth-child(1) {
+        width: 8px;
+        height: 8px;
+        top: -5%;
+        left: 45%;
+        transform: translate(-50%, -50%) rotate(0deg);
+        animation-delay: -0.5s;
+        background: #75718d;
+      }
+      .loading-icon-item:nth-child(2) {
+        width: 6px;
+        height: 6px;
+        top: 15%;
+        left: 95%;
+        transform: translate(-50%, -50%) rotate(45deg);
+        animation-delay: -0.4s;
+        background: #391fce;
+      }
+      .loading-icon-item:nth-child(3) {
+        width: 9px;
+        height: 9px;
+        top: 61%;
+        left: 94%;
+        transform: translate(-50%, -50%) rotate(135deg);
+        animation-delay: -0.3s;
+        background: #8a7ecf;
+      }
+      .loading-icon-item:nth-child(4) {
+        width: 7px;
+        height: 7px;
+        top: 105%;
+        left: 55%;
+        transform: translate(-50%, -50%) rotate(180deg);
+        animation-delay: -0.2s;
+        background: #7160d4;
+      }
+      .loading-icon-item:nth-child(5) {
+        width: 8px;
+        height: 8px;
+        top: 70%;
+        left: 2%;
+        transform: translate(-50%, -50%) rotate(225deg);
+        animation-delay: -0.1s;
+        background: #5648b3;
+      }
+      .loading-icon-item:nth-child(6) {
+        width: 6px;
+        height: 6px;
+        top: 20%;
+        left: 12%;
+        transform: translate(-50%, -50%) rotate(315deg);
+        animation-delay: 0s;
+        background: #4b3da1;
+      }
+
+      @keyframes loading-animation {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.5);
+        }
+      }
+
+      @keyframes icon-rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/jcfw/assets/js/index-DQPoPE4b.js"></script>
+    <link rel="modulepreload" crossorigin href="/jcfw/assets/js/@vue-DMj6kJP1.js">
+    <link rel="modulepreload" crossorigin href="/jcfw/assets/js/vue-router-BQuPhA_r.js">
+    <link rel="modulepreload" crossorigin href="/jcfw/assets/js/lodash-es-Dfcc72EO.js">
+    <link rel="modulepreload" crossorigin href="/jcfw/assets/js/@vueuse-D6tFO15K.js">
+    <link rel="modulepreload" crossorigin href="/jcfw/assets/js/@element-plus-UY_HfQnI.js">
+    <link rel="modulepreload" crossorigin href="/jcfw/assets/js/async-validator-BTKOuuO-.js">
+    <link rel="modulepreload" crossorigin href="/jcfw/assets/js/@ctrl-D2oWfImC.js">
+    <link rel="modulepreload" crossorigin href="/jcfw/assets/js/@popperjs-CpAfbxx4.js">
+    <link rel="modulepreload" crossorigin href="/jcfw/assets/js/normalize-wheel-es-Vn5vHDCm.js">
+    <link rel="modulepreload" crossorigin href="/jcfw/assets/js/element-plus-DzEfNFEh.js">
+    <link rel="modulepreload" crossorigin href="/jcfw/assets/js/pinia-DgxDnLzq.js">
+    <link rel="modulepreload" crossorigin href="/jcfw/assets/js/axios-DMXdiZgf.js">
+    <link rel="stylesheet" crossorigin href="/jcfw/assets/css/element-plus-BhGJOWVx.css">
+    <link rel="stylesheet" crossorigin href="/jcfw/assets/css/index-BG1Nkv1R.css">
+  </head>
+  <body>
+    <div id="app">
+      <div class="loading">
+        <img src="/jcfw/assets/png/logo-CAijJnpF.png" alt="logo" class="loading-logo"/>
+        <div class="loading-icon">
+          <span class="loading-icon-item"></span>
+          <span class="loading-icon-item"></span>
+          <span class="loading-icon-item"></span>
+          <span class="loading-icon-item"></span>
+          <span class="loading-icon-item"></span>
+          <span class="loading-icon-item"></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
